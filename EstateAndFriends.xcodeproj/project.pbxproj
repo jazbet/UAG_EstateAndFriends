@@ -9,11 +9,29 @@
 /* Begin PBXBuildFile section */
 		8B15875719E8B79500CBCA0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15875619E8B79500CBCA0D /* main.m */; };
 		8B15875A19E8B79500CBCA0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15875919E8B79500CBCA0D /* AppDelegate.m */; };
-		8B15875D19E8B79500CBCA0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15875C19E8B79500CBCA0D /* ViewController.m */; };
 		8B15876019E8B79500CBCA0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B15875E19E8B79500CBCA0D /* Main.storyboard */; };
 		8B15876219E8B79500CBCA0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B15876119E8B79500CBCA0D /* Images.xcassets */; };
 		8B15876519E8B79500CBCA0D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B15876319E8B79500CBCA0D /* LaunchScreen.xib */; };
 		8B15877119E8B79500CBCA0D /* EstateAndFriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15877019E8B79500CBCA0D /* EstateAndFriendsTests.m */; };
+		8B15877D19E8ED1F00CBCA0D /* TableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15877C19E8ED1F00CBCA0D /* TableTableViewController.m */; };
+		8B15878019E8F4AA00CBCA0D /* aguascalientes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B15877F19E8F4AA00CBCA0D /* aguascalientes.jpg */; };
+		8B15878319E8F4B800CBCA0D /* colima.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8B15878119E8F4B800CBCA0D /* colima.JPG */; };
+		8B15878419E8F4B800CBCA0D /* df.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B15878219E8F4B800CBCA0D /* df.jpg */; };
+		8B15878819E8F4C900CBCA0D /* jalisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B15878519E8F4C900CBCA0D /* jalisco.jpg */; };
+		8B15878919E8F4C900CBCA0D /* michoacan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B15878619E8F4C900CBCA0D /* michoacan.jpg */; };
+		8B15878A19E8F4C900CBCA0D /* nayarit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B15878719E8F4C900CBCA0D /* nayarit.jpg */; };
+		8B15878D19E8F4D900CBCA0D /* puebla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B15878B19E8F4D900CBCA0D /* puebla.jpg */; };
+		8B15878E19E8F4D900CBCA0D /* queretaro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B15878C19E8F4D900CBCA0D /* queretaro.jpg */; };
+		8B15879119E8F8C900CBCA0D /* ViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15879019E8F8C900CBCA0D /* ViewCell.m */; };
+		8B15879719E907C000CBCA0D /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15879619E907C000CBCA0D /* CityViewController.m */; };
+		8B15879A19E961CF00CBCA0D /* guadalajara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B15879819E961CF00CBCA0D /* guadalajara.jpg */; };
+		8B15879B19E961CF00CBCA0D /* vallarta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B15879919E961CF00CBCA0D /* vallarta.jpg */; };
+		8B1587A019E964D800CBCA0D /* coahuayana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B15879C19E964D800CBCA0D /* coahuayana.jpg */; };
+		8B1587A119E964D800CBCA0D /* comala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B15879D19E964D800CBCA0D /* comala.jpg */; };
+		8B1587A219E964D800CBCA0D /* mzo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B15879E19E964D800CBCA0D /* mzo.jpg */; };
+		8B1587A319E964D800CBCA0D /* playaAzul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B15879F19E964D800CBCA0D /* playaAzul.jpg */; };
+		8B1587A619E9914D00CBCA0D /* AmigosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1587A519E9914D00CBCA0D /* AmigosTableViewController.m */; };
+		8B1587A919E9918000CBCA0D /* AmigosViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1587A819E9918000CBCA0D /* AmigosViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +50,37 @@
 		8B15875619E8B79500CBCA0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B15875819E8B79500CBCA0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B15875919E8B79500CBCA0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8B15875B19E8B79500CBCA0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8B15875C19E8B79500CBCA0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8B15875F19E8B79500CBCA0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B15876119E8B79500CBCA0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8B15876419E8B79500CBCA0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8B15876A19E8B79500CBCA0D /* EstateAndFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstateAndFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B15876F19E8B79500CBCA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B15877019E8B79500CBCA0D /* EstateAndFriendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EstateAndFriendsTests.m; sourceTree = "<group>"; };
+		8B15877A19E8DF6700CBCA0D /* Declaracion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Declaracion.h; sourceTree = "<group>"; };
+		8B15877B19E8ED1F00CBCA0D /* TableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableTableViewController.h; sourceTree = "<group>"; };
+		8B15877C19E8ED1F00CBCA0D /* TableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableTableViewController.m; sourceTree = "<group>"; };
+		8B15877F19E8F4AA00CBCA0D /* aguascalientes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aguascalientes.jpg; path = ../../../Downloads/aguascalientes.jpg; sourceTree = "<group>"; };
+		8B15878119E8F4B800CBCA0D /* colima.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = colima.JPG; path = ../../../Downloads/colima.JPG; sourceTree = "<group>"; };
+		8B15878219E8F4B800CBCA0D /* df.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = df.jpg; path = ../../../Downloads/df.jpg; sourceTree = "<group>"; };
+		8B15878519E8F4C900CBCA0D /* jalisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jalisco.jpg; path = ../../../Downloads/jalisco.jpg; sourceTree = "<group>"; };
+		8B15878619E8F4C900CBCA0D /* michoacan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = michoacan.jpg; path = ../../../Downloads/michoacan.jpg; sourceTree = "<group>"; };
+		8B15878719E8F4C900CBCA0D /* nayarit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nayarit.jpg; path = ../../../Downloads/nayarit.jpg; sourceTree = "<group>"; };
+		8B15878B19E8F4D900CBCA0D /* puebla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = puebla.jpg; path = ../../../Downloads/puebla.jpg; sourceTree = "<group>"; };
+		8B15878C19E8F4D900CBCA0D /* queretaro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = queretaro.jpg; path = ../../../Downloads/queretaro.jpg; sourceTree = "<group>"; };
+		8B15878F19E8F8C900CBCA0D /* ViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCell.h; sourceTree = "<group>"; };
+		8B15879019E8F8C900CBCA0D /* ViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCell.m; sourceTree = "<group>"; };
+		8B15879519E907C000CBCA0D /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		8B15879619E907C000CBCA0D /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
+		8B15879819E961CF00CBCA0D /* guadalajara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = guadalajara.jpg; path = ../../../Downloads/guadalajara.jpg; sourceTree = "<group>"; };
+		8B15879919E961CF00CBCA0D /* vallarta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vallarta.jpg; path = ../../../Downloads/vallarta.jpg; sourceTree = "<group>"; };
+		8B15879C19E964D800CBCA0D /* coahuayana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coahuayana.jpg; path = ../../../Downloads/coahuayana.jpg; sourceTree = "<group>"; };
+		8B15879D19E964D800CBCA0D /* comala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = comala.jpg; path = ../../../Downloads/comala.jpg; sourceTree = "<group>"; };
+		8B15879E19E964D800CBCA0D /* mzo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mzo.jpg; path = ../../../Downloads/mzo.jpg; sourceTree = "<group>"; };
+		8B15879F19E964D800CBCA0D /* playaAzul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = playaAzul.jpg; path = ../../../Downloads/playaAzul.jpg; sourceTree = "<group>"; };
+		8B1587A419E9914D00CBCA0D /* AmigosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmigosTableViewController.h; sourceTree = "<group>"; };
+		8B1587A519E9914D00CBCA0D /* AmigosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmigosTableViewController.m; sourceTree = "<group>"; };
+		8B1587A719E9918000CBCA0D /* AmigosViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmigosViewCell.h; sourceTree = "<group>"; };
+		8B1587A819E9918000CBCA0D /* AmigosViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmigosViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +122,20 @@
 		8B15875319E8B79500CBCA0D /* EstateAndFriends */ = {
 			isa = PBXGroup;
 			children = (
+				8B15877E19E8F42E00CBCA0D /* images */,
+				8B15877A19E8DF6700CBCA0D /* Declaracion.h */,
 				8B15875819E8B79500CBCA0D /* AppDelegate.h */,
 				8B15875919E8B79500CBCA0D /* AppDelegate.m */,
-				8B15875B19E8B79500CBCA0D /* ViewController.h */,
-				8B15875C19E8B79500CBCA0D /* ViewController.m */,
+				8B15877B19E8ED1F00CBCA0D /* TableTableViewController.h */,
+				8B15877C19E8ED1F00CBCA0D /* TableTableViewController.m */,
+				8B1587A419E9914D00CBCA0D /* AmigosTableViewController.h */,
+				8B1587A519E9914D00CBCA0D /* AmigosTableViewController.m */,
+				8B15878F19E8F8C900CBCA0D /* ViewCell.h */,
+				8B15879019E8F8C900CBCA0D /* ViewCell.m */,
+				8B1587A719E9918000CBCA0D /* AmigosViewCell.h */,
+				8B1587A819E9918000CBCA0D /* AmigosViewCell.m */,
+				8B15879519E907C000CBCA0D /* CityViewController.h */,
+				8B15879619E907C000CBCA0D /* CityViewController.m */,
 				8B15875E19E8B79500CBCA0D /* Main.storyboard */,
 				8B15876119E8B79500CBCA0D /* Images.xcassets */,
 				8B15876319E8B79500CBCA0D /* LaunchScreen.xib */,
@@ -117,6 +168,27 @@
 				8B15876F19E8B79500CBCA0D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B15877E19E8F42E00CBCA0D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8B15879C19E964D800CBCA0D /* coahuayana.jpg */,
+				8B15879D19E964D800CBCA0D /* comala.jpg */,
+				8B15879E19E964D800CBCA0D /* mzo.jpg */,
+				8B15879F19E964D800CBCA0D /* playaAzul.jpg */,
+				8B15879819E961CF00CBCA0D /* guadalajara.jpg */,
+				8B15879919E961CF00CBCA0D /* vallarta.jpg */,
+				8B15878B19E8F4D900CBCA0D /* puebla.jpg */,
+				8B15878C19E8F4D900CBCA0D /* queretaro.jpg */,
+				8B15878519E8F4C900CBCA0D /* jalisco.jpg */,
+				8B15878619E8F4C900CBCA0D /* michoacan.jpg */,
+				8B15878719E8F4C900CBCA0D /* nayarit.jpg */,
+				8B15878119E8F4B800CBCA0D /* colima.JPG */,
+				8B15878219E8F4B800CBCA0D /* df.jpg */,
+				8B15877F19E8F4AA00CBCA0D /* aguascalientes.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +271,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B15878319E8F4B800CBCA0D /* colima.JPG in Resources */,
+				8B15878419E8F4B800CBCA0D /* df.jpg in Resources */,
+				8B15879B19E961CF00CBCA0D /* vallarta.jpg in Resources */,
+				8B15878819E8F4C900CBCA0D /* jalisco.jpg in Resources */,
+				8B1587A119E964D800CBCA0D /* comala.jpg in Resources */,
 				8B15876019E8B79500CBCA0D /* Main.storyboard in Resources */,
 				8B15876519E8B79500CBCA0D /* LaunchScreen.xib in Resources */,
+				8B15878019E8F4AA00CBCA0D /* aguascalientes.jpg in Resources */,
 				8B15876219E8B79500CBCA0D /* Images.xcassets in Resources */,
+				8B15879A19E961CF00CBCA0D /* guadalajara.jpg in Resources */,
+				8B1587A019E964D800CBCA0D /* coahuayana.jpg in Resources */,
+				8B15878919E8F4C900CBCA0D /* michoacan.jpg in Resources */,
+				8B1587A219E964D800CBCA0D /* mzo.jpg in Resources */,
+				8B15878E19E8F4D900CBCA0D /* queretaro.jpg in Resources */,
+				8B15878D19E8F4D900CBCA0D /* puebla.jpg in Resources */,
+				8B1587A319E964D800CBCA0D /* playaAzul.jpg in Resources */,
+				8B15878A19E8F4C900CBCA0D /* nayarit.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +305,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B15875D19E8B79500CBCA0D /* ViewController.m in Sources */,
+				8B15879119E8F8C900CBCA0D /* ViewCell.m in Sources */,
+				8B1587A619E9914D00CBCA0D /* AmigosTableViewController.m in Sources */,
+				8B1587A919E9918000CBCA0D /* AmigosViewCell.m in Sources */,
+				8B15877D19E8ED1F00CBCA0D /* TableTableViewController.m in Sources */,
+				8B15879719E907C000CBCA0D /* CityViewController.m in Sources */,
 				8B15875A19E8B79500CBCA0D /* AppDelegate.m in Sources */,
 				8B15875719E8B79500CBCA0D /* main.m in Sources */,
 			);
